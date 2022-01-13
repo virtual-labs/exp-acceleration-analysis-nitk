@@ -1,0 +1,1 @@
+1. Find a combination of link lengths where motion of a point on output link is one quarter of a circle.

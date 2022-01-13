@@ -1,39 +1,142 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "Grashof's condition is the necessary condition for?",
+        "answers": {
+          "a": "Continuous motion",
+          "b": "Non Continuous motion",
+          "c": "Intermittent motion",
+          "d": "None of these"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "Which of the following is the inversion of four bar chain?",
+        "answers": {
+          "a": "Beam engine",
+          "b": "Pendulum pump",
+          "c": "Oscillating cylinder",
+          "d": "None of these"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      {
+        "question": "The links in a four bar mechanism is ?",
+        "answers": {
+          "a": "Binary link",
+          "b": "Ternary link",
+          "c": "Flexible link",
+          "d": "None of these"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "Coupled wheel of locomotive is an inversion of ",
+        "answers": {
+          "a": "Four bar mechanism",
+          "b": "Double slider crank mechanism",
+          "c": "Slider crank mechanism",
+          "d": "Six bar mechanism"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+      {
+        "question": "Watts indicator is an inversion of",
+        "answers": {
+          "a": "Four bar mechanism ",
+          "b": "Double slider crank mechanism",
+          "c": "Slider crank mechanism",
+          "d": "Six bar mechanism"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      },
+      {
+        "question": "The part of IC engine which acts as coupler is",
+        "answers": {
+          "a": "Connecting rod",
+          "b": "Piston ",
+          "c": "Piston ring",
+          "d": "Fly wheel"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      },
+      {
+        "question": " Beam engine is",
+        "answers": {
+          "a": "Crank and lever mechanism",
+          "b": "Crank and crank mechanism",
+          "c": "Double crank mechanism",
+          "d": "None of these"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      },
+      {
+          "question": "In the beam engine which link connects piston rod coupler and frame?",
+          "answers": {
+            "a": "Lever",
+            "b": "Crank",
+            "c": "Coupler",
+            "d": "None of these"
+          },
+          "explanations": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          },
+          "correctAnswer": "a",
+          "difficulty": ""
+      }
+    ]
+  }
+  
