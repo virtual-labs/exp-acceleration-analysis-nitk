@@ -1,39 +1,91 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "Which of the following is possible for Input and Output links in case of Grashof linkage?",
+        "answers": {
+          "a": "Crank-Crank",
+          "b": "Crank-Rocker",
+          "c": "Rocker-Rocker",
+          "d": "All"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "d",
+        "difficulty": ""
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "In Drag Link Mechanism",
+        "answers": {
+          "a": "Shortest link is fixed",
+          "b": "Longest link is fixed",
+          "c": "One other than shortest or longest link is fixed",
+          "d": "Any link can be fixed"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      {
+        "question": "If longest link is fixed and shortest link is coupler which type of four bar mechanism would be formed?",
+        "answers": {
+          "a": "Double Rocker",
+          "b": "Crank Rocker",
+          "c": "Double Crank",
+          "d": "Can't be determined"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "According to Grashof Condition ",
+        "answers": {
+          "a": "s+l<p+q",
+          "b": "s+l>p+q",
+          "c": "s+p>l+q",
+          "d": "s+p<l+q"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+      {
+        "question": "If Grashof condition is met, which link definitely can complete a rotation",
+        "answers": {
+          "a": "Shortest Link",
+          "b": "Longest Link",
+          "c": "Shorter of the remaining links",
+          "d": "Longer of the remaining two links"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      }
+    ]
+  }
+  
