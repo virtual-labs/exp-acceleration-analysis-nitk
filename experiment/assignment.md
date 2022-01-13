@@ -1,1 +1,1 @@
-1. Find a combination of link lengths where motion of a point on output link is one quarter of a circle.
+1. Find the relation between accelerations of the links when the input and output link are parallel to each other.

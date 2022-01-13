@@ -1,2 +1,1 @@
-To determine the position of four bar linkages given, the input is crank (ω) hence find out (θ<sub>4</sub>) and transmission angle (γ).
-
+To determine the acceleration of four bar linkages given, input is crank(ω2) and find the angular acceleration of coupler (α3) and rocker(α4).

@@ -1,17 +1,4 @@
-## Procedure
-
-<div  style="text-align: justify; text-indent: 50px;">
-
-Read the value of link lengths and the input angle θ<sub>2</sub>, then use the formulae given below to calculate the value of unknowns θ<sub>3</sub>, θ<sub>4</sub> and γ 
-
-</div>
-
-
-<div style="text-align: center">
-
-   [<img src="./images/pos7.png" width="550" height="500" />](./images/pos7.png)
-
- </div>
-
-   For special cases of positioning (e.g. when two link are aligned) use simple geometry and trigonometry relations to find out the solution
-
+* Edit the parameters in variable section and observe the changes taking place in the acceleration diagram of the four bar mechanism.
+* Table will show the value of the parameters.
+* Notice that there are two accelerations of a point on a rotating link.One acceleration (Centripetal, magnitude =rω2) is along the link directed towards the point about which the link is rotating. The other acceleration (tangential, magnitude =rα) is perpendicular to the link and directed in the direction of rotation of link.
+* Total acceleration of the point on the link is the resultant of centripetal and tangential accelerations.
