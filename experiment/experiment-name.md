@@ -1,1 +1,1 @@
-## Experiment name
+## Acceleration analysis of Grash of four bar mechanism
