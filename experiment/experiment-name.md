@@ -1,1 +1,1 @@
-## Acceleration analysis of Grash of four bar mechanism
+## Acceleration analysis of Grashof four bar mechanism
