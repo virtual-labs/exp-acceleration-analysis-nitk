@@ -9,7 +9,6 @@ em:current font size
 /* Below 1344px (Smaller Desktops) */
 /* **************************** */
 
-
 @media (max-width: 1344px) {
   body {
     width: 100%;
@@ -37,26 +36,20 @@ em:current font size
     display: block;
     width: 100%;
     height: 100%;
-   
   }
   .div__control img {
     width: 3rem;
     height: 2.8rem;
   }
 
-  #variables{
+  #variables {
     width: 200%;
   }
- 
-
- 
- 
 }
 
- /***************************** */
+/***************************** */
 /* Below 1200px (Lanscape Tablets) */
 /* **************************** */
-
 
 @media (max-width: 75em) {
   body {
@@ -91,11 +84,9 @@ em:current font size
     height: 2.8rem;
   }
 
-  #variables{
+  #variables {
     width: 200%;
   }
- 
-  
 }
 
 /* **************************** */
@@ -130,7 +121,6 @@ em:current font size
     justify-content: space-evenly;
     border-radius: 0;
     scroll-behavior: auto;
-    
   }
   .tool-menu {
     list-style: none;
@@ -178,31 +168,27 @@ em:current font size
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
 
-  #variables{
+  #variables {
     width: 100%;
   }
   div#commentboxleft {
     left: 10px;
     top: 520px;
     font-size: 15px;
-    
   }
   div#commentboxright {
     position: absolute;
-    left:400px;
+    left: 400px;
     top: 520px;
     text-align: left;
     font-size: 18px;
-    
   }
 }
-
-
 
 /* **************************** */
 /* Below 820px (Smaller Tablets) */
 /* **************************** */
-@media  (max-width: 48em )  {
+@media (max-width: 48em) {
   .main-section {
     grid-template-columns: 1fr;
   }
@@ -217,11 +203,11 @@ em:current font size
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
   .datatable {
-    position:relative;
+    position: relative;
     top: 50px;
     width: 80px;
     font-size: 12px;
-   
+
     text-align: center;
   }
   .datatable table {
@@ -236,15 +222,13 @@ em:current font size
     left: 10px;
     top: 520px;
     font-size: 18px;
-    
   }
   div#commentboxright {
     position: absolute;
-    left:400px;
+    left: 400px;
     top: 520px;
     text-align: left;
     font-size: 18px;
-    
   }
   #legendicon {
     background-image: url("../images/legendicon.png");
@@ -256,29 +240,25 @@ em:current font size
     border: double;
   }
   #legendicon:active ~ #legend,
-#legendicon:hover + #legend {
-  height: 80px; 
-  border: solid 1px; 
-}
+  #legendicon:hover + #legend {
+    height: 80px;
+    border: solid 1px;
+  }
   div#newComment {
     margin-top: 74px;
-     
-   }
-  #variables{
+  }
+  #variables {
     width: 100%;
   }
-  
-  
 }
 /* **************************** */
 /* Below 768px */
 /* **************************** */
-@media (max-width:768px){
+@media (max-width: 768px) {
   #canvas-container {
     width: 100%;
     height: 70rem;
   }
-  
 }
 /* **************************** */
 /* Below 704px (Smaller Tablets) */
@@ -299,8 +279,7 @@ em:current font size
     height: 0.6rem;
   }
   .logo-div {
-    width: 8.5rem;
-
+    width: 5rem;
   }
   .main__task-div:nth-child(4) {
     margin-bottom: 6rem;
@@ -322,9 +301,9 @@ em:current font size
     width: 100%;
     height: 70rem;
   }
-  
+
   .datatable {
-    position:relative;
+    position: relative;
     width: 80px;
     font-size: 12px;
     text-align: center;
@@ -352,8 +331,8 @@ em:current font size
   }
   #legendicon:active ~ #legend,
   #legendicon:hover + #legend {
-    height: 80px; 
-    border: solid 1px; 
+    height: 80px;
+    border: solid 1px;
   }
   #quickref {
     position: absolute;
@@ -370,28 +349,24 @@ em:current font size
     left: 10px;
     top: 580px;
     font-size: 15px;
-    
   }
   div#commentboxright {
     position: absolute;
-    left:10px;
+    left: 10px;
     top: 650px;
     text-align: left;
     font-size: 15px;
-    
   }
   div#newComment {
-   margin-top: 74px;
-    
+    margin-top: 74px;
   }
-  #variables{
+  #variables {
     width: 100%;
   }
-  canvas#simscreen{
+  canvas#simscreen {
     left: 67px;
     width: 501px;
   }
- 
 }
 
 /* **************************** */
@@ -399,13 +374,16 @@ em:current font size
 /* **************************** */
 @media (max-width: 34em) {
   .container {
-    padding: 0.5rem;
     gap: 1rem;
   }
 
   .title-div h1 {
-    padding: 0.2rem;  
+    padding: 0.2rem;
     font-size: 1.6rem;
+  }
+
+  .logo-div {
+    width: 4rem;
   }
   .div__control {
     gap: 2rem;
@@ -450,21 +428,20 @@ em:current font size
   .tooltip {
     font-size: 1rem;
   }
-  
-canvas#simscreen {
-  position: absolute;
-  left: 0px;
-  top: 66px;
-  height: 414px;
-  width: 320px;
-  
-}
+
+  canvas#simscreen {
+    position: absolute;
+    left: 0px;
+    top: 66px;
+    height: 414px;
+    width: 320px;
+  }
   .datatable {
-    position:relative;
+    position: relative;
     width: 80px;
     font-size: 10px;
     text-align: center;
-    left:0px;
+    left: 0px;
   }
   .datatable table {
     border: 1px solid #000011;
@@ -485,34 +462,32 @@ canvas#simscreen {
   }
   #legend {
     position: absolute;
-    left:60px;
+    left: 60px;
     top: 380px;
     height: 0px;
     width: 180px;
     border: solid 0px;
-    z-index:100;
+    z-index: 100;
     overflow: hidden;
   }
   #legendicon:active ~ #legend,
   #legendicon:hover + #legend {
-    height: 80px; 
+    height: 80px;
     border: solid 1px;
     width: 215px;
   }
-  
+
   div#commentboxleft {
     left: 10px;
     top: 580px;
     font-size: 16px;
-    
   }
   div#commentboxright {
     position: absolute;
-    left:10px;
+    left: 10px;
     top: 670px;
     text-align: left;
     font-size: 16px;
-    
   }
 
   #canvas-container {
@@ -520,22 +495,17 @@ canvas#simscreen {
     height: 75rem;
   }
   #titleincanvas {
-    position:absolute;
+    position: absolute;
     left: 120px;
     top: 48px;
-    
-  
   }
   div#newComment {
     margin-top: 30px;
     font-size: 14px;
-     
-   }
-  #variables{
+  }
+  #variables {
     width: 100%;
   }
-
-  
 }
 
 /* 
@@ -546,4 +516,4 @@ canvas#simscreen {
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
- */ 
+ */
