@@ -1,0 +1,519 @@
+/* rem and em don not depend on html font size in media queries, Instead 1rem = 1em = 16px
+rem: root font size
+em:current font size
+*/
+
+/* *************only screen******* */
+
+/* **************************** */
+/* Below 1344px (Smaller Desktops) */
+/* **************************** */
+
+@media (max-width: 1344px) {
+  body {
+    width: 100%;
+    margin: unset;
+  }
+  .title-div h1 {
+    font-size: 2.5rem;
+  }
+  .task-title {
+    font-size: 2rem;
+  }
+  .tool-menu {
+    font-size: 2rem;
+    gap: 2rem;
+  }
+  .icons {
+    width: 4rem;
+    height: 4rem;
+  }
+  .ctrl-icons {
+    width: 3rem;
+    height: 3rem;
+  }
+  .canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .div__control img {
+    width: 3rem;
+    height: 2.8rem;
+  }
+
+  #variables {
+    width: 200%;
+  }
+}
+
+/***************************** */
+/* Below 1200px (Lanscape Tablets) */
+/* **************************** */
+
+@media (max-width: 75em) {
+  body {
+    width: 100%;
+    margin: unset;
+  }
+  .title-div h1 {
+    font-size: 2.5rem;
+  }
+  .task-title {
+    font-size: 2rem;
+  }
+  .tool-menu {
+    font-size: 2rem;
+    gap: 2rem;
+  }
+  .icons {
+    width: 4rem;
+    height: 4rem;
+  }
+  .ctrl-icons {
+    width: 3rem;
+    height: 3rem;
+  }
+  .canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .div__control img {
+    width: 3rem;
+    height: 2.8rem;
+  }
+
+  #variables {
+    width: 200%;
+  }
+}
+
+/* **************************** */
+/* Below 944px ( Tablets) */
+/* **************************** */
+
+@media (max-width: 59em) {
+  .tool-link:link,
+  .tool-link:visited {
+    gap: 0.5rem;
+    font-size: 1.4rem;
+    flex-direction: column;
+  }
+
+  .title-div h1 {
+    font-size: 2rem;
+  }
+
+  .main__task-div {
+    height: auto;
+  }
+
+  .sidebar {
+    position: fixed;
+    padding: 0;
+    bottom: 0;
+    left: 0;
+    flex-direction: row;
+    width: 100%;
+    backdrop-filter: blur(10rem);
+    z-index: 101;
+    justify-content: space-evenly;
+    border-radius: 0;
+    scroll-behavior: auto;
+  }
+  .tool-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    width: 100%;
+    font-size: 2.4rem;
+    justify-content: space-evenly;
+    padding: 1rem;
+  }
+  .main-section {
+    grid-template-columns: 1fr;
+  }
+  .logo-div {
+    width: 6.5rem;
+  }
+  .icons {
+    width: 3rem;
+    height: 3rem;
+  }
+  .main__task-div:nth-child(4) {
+    margin-bottom: 6rem;
+  }
+  .tool-list span {
+    font-size: 1rem;
+  }
+  .canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+  }
+  .main-section {
+    grid-template-columns: 1fr;
+  }
+  .canvas__div {
+    grid-template-columns: 1fr;
+  }
+  .canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-top: 1px solid rgba(177, 176, 176, 0.855);
+  }
+
+  #variables {
+    width: 100%;
+  }
+  div#commentboxleft {
+    left: 10px;
+    top: 520px;
+    font-size: 15px;
+  }
+  div#commentboxright {
+    position: absolute;
+    left: 400px;
+    top: 520px;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+
+/* **************************** */
+/* Below 820px (Smaller Tablets) */
+/* **************************** */
+@media (max-width: 48em) {
+  .main-section {
+    grid-template-columns: 1fr;
+  }
+  .canvas__div {
+    grid-template-columns: 1fr;
+  }
+  .canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-top: 1px solid rgba(177, 176, 176, 0.855);
+  }
+  .datatable {
+    position: relative;
+    top: 50px;
+    width: 80px;
+    font-size: 12px;
+
+    text-align: center;
+  }
+  .datatable table {
+    border: 1px solid #000011;
+    border-collapse: collapse;
+    width: 120px;
+    margin-top: 315px;
+    margin-left: 0;
+  }
+
+  div#commentboxleft {
+    left: 10px;
+    top: 520px;
+    font-size: 18px;
+  }
+  div#commentboxright {
+    position: absolute;
+    left: 400px;
+    top: 520px;
+    text-align: left;
+    font-size: 18px;
+  }
+  #legendicon {
+    background-image: url("../images/legendicon.png");
+    position: absolute;
+    left: 650px;
+    top: 471px;
+    height: 24px;
+    width: 24px;
+    border: double;
+  }
+  #legendicon:active ~ #legend,
+  #legendicon:hover + #legend {
+    height: 80px;
+    border: solid 1px;
+  }
+  div#newComment {
+    margin-top: 74px;
+  }
+  #variables {
+    width: 100%;
+  }
+}
+/* **************************** */
+/* Below 768px */
+/* **************************** */
+@media (max-width: 768px) {
+  #canvas-container {
+    width: 100%;
+    height: 70rem;
+  }
+}
+/* **************************** */
+/* Below 704px (Smaller Tablets) */
+/* **************************** */
+@media (max-width: 44em) {
+  .canvas__div {
+    grid-template-columns: 1fr;
+  }
+  .img-div {
+    flex-direction: column;
+  }
+  .title-div {
+    gap: 0rem;
+    text-align: center;
+  }
+  .round {
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+  .logo-div {
+    width: 5rem;
+  }
+  .main__task-div:nth-child(4) {
+    margin-bottom: 6rem;
+  }
+  .circuit-dia {
+    width: 40%;
+  }
+  .cross-img {
+    width: 60%;
+  }
+  .canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-top: 1px solid rgba(177, 176, 176, 0.855);
+  }
+  #canvas-container {
+    width: 100%;
+    height: 70rem;
+  }
+
+  .datatable {
+    position: relative;
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    left: 180px;
+  }
+  #legendicon {
+    background-image: url("../images/legendicon.png");
+    position: absolute;
+    left: 470px;
+    top: 590px;
+    height: 24px;
+    width: 24px;
+    border: double;
+    z-index: 101;
+  }
+  #legend {
+    position: absolute;
+    left: 249px;
+    top: 515px;
+    height: 0px;
+    width: 220px;
+    border: solid 0px;
+    z-index: 100;
+    overflow: hidden;
+  }
+  #legendicon:active ~ #legend,
+  #legendicon:hover + #legend {
+    height: 80px;
+    border: solid 1px;
+  }
+  #quickref {
+    position: absolute;
+    left: 600px;
+    top: 225px;
+    height: 100px;
+    width: 0px;
+    border: solid 0px;
+    z-index: 99;
+    overflow: hidden;
+  }
+
+  div#commentboxleft {
+    left: 10px;
+    top: 580px;
+    font-size: 15px;
+  }
+  div#commentboxright {
+    position: absolute;
+    left: 10px;
+    top: 650px;
+    text-align: left;
+    font-size: 15px;
+  }
+  div#newComment {
+    margin-top: 74px;
+  }
+  #variables {
+    width: 100%;
+  }
+  canvas#simscreen {
+    left: 67px;
+    width: 501px;
+  }
+}
+
+/* **************************** */
+/* Below 540px (Smaller Tablets) */
+/* **************************** */
+@media (max-width: 34em) {
+  .container {
+    gap: 1rem;
+  }
+
+  .title-div h1 {
+    padding: 0.2rem;
+    font-size: 1.6rem;
+  }
+
+  .logo-div {
+    width: 4rem;
+  }
+  .div__control {
+    gap: 2rem;
+  }
+  .ctrl-icons {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .tool-menu {
+    gap: 1.5rem;
+  }
+  .task-title {
+    font-size: 1.7rem;
+  }
+  label,
+  select,
+  input,
+  p {
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+  .main {
+    gap: 0.5rem;
+  }
+  .main-section {
+    gap: 0.5rem;
+  }
+  .sidebar {
+    border-radius: 0;
+  }
+  .canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-top: 1px solid rgba(177, 176, 176, 0.855);
+  }
+  .div__control img {
+    width: 2.7rem;
+    height: 2.5rem;
+  }
+  .tooltip {
+    font-size: 1rem;
+  }
+
+  canvas#simscreen {
+    position: absolute;
+    left: 0px;
+    top: 66px;
+    height: 414px;
+    width: 320px;
+  }
+  .datatable {
+    position: relative;
+    width: 80px;
+    font-size: 10px;
+    text-align: center;
+    left: 0px;
+  }
+  .datatable table {
+    border: 1px solid #000011;
+    border-collapse: collapse;
+    width: 120px;
+    margin-top: 385px;
+    margin-left: 10px;
+  }
+
+  #legendicon {
+    background-image: url("../images/legendicon.png");
+    position: absolute;
+    left: 278px;
+    top: 437px;
+    height: 24px;
+    width: 24px;
+    border: double;
+  }
+  #legend {
+    position: absolute;
+    left: 60px;
+    top: 380px;
+    height: 0px;
+    width: 180px;
+    border: solid 0px;
+    z-index: 100;
+    overflow: hidden;
+  }
+  #legendicon:active ~ #legend,
+  #legendicon:hover + #legend {
+    height: 80px;
+    border: solid 1px;
+    width: 215px;
+  }
+
+  div#commentboxleft {
+    left: 10px;
+    top: 580px;
+    font-size: 16px;
+  }
+  div#commentboxright {
+    position: absolute;
+    left: 10px;
+    top: 670px;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  #canvas-container {
+    width: 100%;
+    height: 75rem;
+  }
+  #titleincanvas {
+    position: absolute;
+    left: 120px;
+    top: 48px;
+  }
+  div#newComment {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  #variables {
+    width: 100%;
+  }
+}
+
+/* 
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+ */

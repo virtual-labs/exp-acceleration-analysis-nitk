@@ -1,5 +1,15 @@
-1. Edit the parameters in variable section and observe the changes taking place in the acceleration diagram of the four bar mechanism.
+### Procedure
 
-2. Table will show the value of the parameters.
-3. Notice that there are two accelerations of a point on a rotating link.One acceleration (Centripetal, magnitude =rω2) is along the link directed towards the point about which the link is rotating. The other acceleration (tangential, magnitude =rα) is perpendicular to the link and directed in the direction of rotation of link.
-4. Total acceleration of the point on the link is the resultant of centripetal and tangential accelerations.
+<div style="text-align:left">
+  Click on the Simulation icon    <img src="images/simulation.png" alt="Alt text" style="height:80px; width:80px;">  to view the simulation screen. 
+
+   ![Alt text](images/Simscreen1.png)
+   
+   In order to view the variable section click on the Variable icon. <img src="images/var1.png" alt="Alt text" style="height:80px; width:80px;">
+
+   ![Alt text](images/var2.png)
+
+   Click on Play icon <img src="images/play1.png" alt="Alt text" style="height:80px; width:80px;"> to run the simulation and click on Pause icon <img src="images/pause.png" alt="Alt text" style="height:80px; width:80px;"> to stop it.
+
+   Click on the Rotate icon  <img src="images/rotate_clockwise.png" alt="Alt text" style="height:80px; width:80px;"> to change the direction of rotation.
+</div>
