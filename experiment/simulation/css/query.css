@@ -146,7 +146,7 @@ em:current font size
     margin-bottom: 6rem;
   }
   .tool-list span {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .canvas {
     display: block;
@@ -171,18 +171,6 @@ em:current font size
   #variables {
     width: 100%;
   }
-  div#commentboxleft {
-    left: 10px;
-    top: 520px;
-    font-size: 15px;
-  }
-  div#commentboxright {
-    position: absolute;
-    left: 400px;
-    top: 520px;
-    text-align: left;
-    font-size: 18px;
-  }
 }
 
 /* **************************** */
@@ -202,12 +190,12 @@ em:current font size
     border: none;
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
-  .datatable {
-    position: relative;
+  /* .datatable {
+    position:relative;
     top: 50px;
     width: 80px;
     font-size: 12px;
-
+   
     text-align: center;
   }
   .datatable table {
@@ -222,15 +210,17 @@ em:current font size
     left: 10px;
     top: 520px;
     font-size: 18px;
+    
   }
   div#commentboxright {
     position: absolute;
-    left: 400px;
+    left:400px;
     top: 520px;
     text-align: left;
     font-size: 18px;
-  }
-  #legendicon {
+    
+  } */
+  /* #legendicon {
     background-image: url("../images/legendicon.png");
     position: absolute;
     left: 650px;
@@ -243,10 +233,11 @@ em:current font size
   #legendicon:hover + #legend {
     height: 80px;
     border: solid 1px;
-  }
-  div#newComment {
+  } */
+  /* div#newComment {
     margin-top: 74px;
-  }
+     
+   } */
   #variables {
     width: 100%;
   }
@@ -257,7 +248,7 @@ em:current font size
 @media (max-width: 768px) {
   #canvas-container {
     width: 100%;
-    height: 70rem;
+    /* height: 70rem; */
   }
 }
 /* **************************** */
@@ -279,7 +270,7 @@ em:current font size
     height: 0.6rem;
   }
   .logo-div {
-    width: 5rem;
+    width: 6rem;
   }
   .main__task-div:nth-child(4) {
     margin-bottom: 6rem;
@@ -297,19 +288,19 @@ em:current font size
     border: none;
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
-  #canvas-container {
+  /* #canvas-container {
     width: 100%;
     height: 70rem;
-  }
+  } */
 
-  .datatable {
+  /* .datatable {
     position: relative;
     width: 80px;
     font-size: 12px;
     text-align: center;
     left: 180px;
-  }
-  #legendicon {
+  } */
+  /* #legendicon {
     background-image: url("../images/legendicon.png");
     position: absolute;
     left: 470px;
@@ -333,7 +324,7 @@ em:current font size
   #legendicon:hover + #legend {
     height: 80px;
     border: solid 1px;
-  }
+  } */
   #quickref {
     position: absolute;
     left: 600px;
@@ -345,7 +336,7 @@ em:current font size
     overflow: hidden;
   }
 
-  div#commentboxleft {
+  /* div#commentboxleft {
     left: 10px;
     top: 580px;
     font-size: 15px;
@@ -356,17 +347,17 @@ em:current font size
     top: 650px;
     text-align: left;
     font-size: 15px;
-  }
-  div#newComment {
+  } */
+  /* div#newComment {
     margin-top: 74px;
-  }
+  } */
   #variables {
     width: 100%;
   }
-  canvas#simscreen {
+  /* canvas#simscreen {
     left: 67px;
     width: 501px;
-  }
+  } */
 }
 
 /* **************************** */
@@ -374,6 +365,7 @@ em:current font size
 /* **************************** */
 @media (max-width: 34em) {
   .container {
+    /* padding: 0.5rem; */
     gap: 1rem;
   }
 
@@ -381,12 +373,11 @@ em:current font size
     padding: 0.2rem;
     font-size: 1.6rem;
   }
-
-  .logo-div {
-    width: 4rem;
-  }
   .div__control {
     gap: 2rem;
+  }
+  .logo-div {
+    width: 5rem;
   }
   .ctrl-icons {
     width: 2.5rem;
@@ -414,12 +405,11 @@ em:current font size
   .sidebar {
     border-radius: 0;
   }
-  .canvas {
+  canvas {
     display: block;
     width: 100%;
     height: 100%;
     border: none;
-    border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
   .div__control img {
     width: 2.7rem;
@@ -429,14 +419,28 @@ em:current font size
     font-size: 1rem;
   }
 
-  canvas#simscreen {
+  canvas {
+    width: 100%;
+    display: block;
+  }
+
+  .datatable {
+    font-size: 1.2rem;
+    padding: 0.25rem;
+  }
+
+  #newComment {
+    font-size: 1.4rem;
+  }
+
+  /* canvas#simscreen {
     position: absolute;
     left: 0px;
     top: 66px;
     height: 414px;
     width: 320px;
-  }
-  .datatable {
+  } */
+  /* .datatable {
     position: relative;
     width: 80px;
     font-size: 10px;
@@ -449,9 +453,9 @@ em:current font size
     width: 120px;
     margin-top: 385px;
     margin-left: 10px;
-  }
+  } */
 
-  #legendicon {
+  /* #legendicon {
     background-image: url("../images/legendicon.png");
     position: absolute;
     left: 278px;
@@ -475,9 +479,9 @@ em:current font size
     height: 80px;
     border: solid 1px;
     width: 215px;
-  }
+  } */
 
-  div#commentboxleft {
+  /* div#commentboxleft {
     left: 10px;
     top: 580px;
     font-size: 16px;
@@ -488,13 +492,13 @@ em:current font size
     top: 670px;
     text-align: left;
     font-size: 16px;
-  }
+  } */
 
   #canvas-container {
     width: 100%;
-    height: 75rem;
+    /* height: 75rem; */
   }
-  #titleincanvas {
+  /* #titleincanvas {
     position: absolute;
     left: 120px;
     top: 48px;
@@ -502,9 +506,17 @@ em:current font size
   div#newComment {
     margin-top: 30px;
     font-size: 14px;
-  }
+  } */
   #variables {
     width: 100%;
+  }
+  canvas#simscreen {
+    align-self: center;
+    display: block;
+    width: 100%;
+    /* height: 100%; */
+    image-rendering: crisp-edges;
+    -moz-image-rendering: crisp-edges;
   }
 }
 
