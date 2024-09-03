@@ -91,7 +91,7 @@
           </li>
           <li class="tool-list">
             <img
-              id="playpausebutton"
+              id="playpausebutton" title="Play/Pause"
               onclick="simstate()"
               src="images/bluepausedull.svg"
               alt=""
@@ -101,7 +101,7 @@
           </li>
           <li class="tool-list">
             <img
-              id="rotationbutton"
+              id="rotationbutton" title="Rotate"
               onclick="rotstate()"
               src="images/bluecwdull.svg"
               alt=""
@@ -156,7 +156,7 @@
                 <div class="var-div">
                   <div class="input-container">
                     <label for="r1spinner"><p title="Link Length">r1</p></label>
-                    <input class="var-spinner" id="r1spinner" name="value" />
+                    <input class="var-spinner" type="number" id="r1spinner" name="value" />
                     <span class="mm">mm</span>
                   </div>
                   <div class="var-slider" id="r1slider"></div>
@@ -164,7 +164,7 @@
                 <div class="var-div">
                   <div class="input-container">
                     <label for="r2spinner"><p title="Link Length">r2</p></label>
-                    <input class="var-spinner" id="r2spinner" name="value" />
+                    <input class="var-spinner" type="number" id="r2spinner" name="value" />
 
                     <span class="mm">mm</span>
                   </div>
@@ -173,7 +173,7 @@
                 <div class="var-div">
                   <div class="input-container">
                     <label for="r3spinner"><p title="Link Length">r3</p></label>
-                    <input class="var-spinner" id="r3spinner" name="value" />
+                    <input class="var-spinner" type="number" id="r3spinner" name="value" />
 
                     <span class="mm">mm</span>
                   </div>
@@ -182,7 +182,7 @@
                 <div class="var-div">
                   <div class="input-container">
                     <label for="r4spinner"><p title="Link Length">r4</p></label>
-                    <input class="var-spinner" id="r4spinner" name="value" />
+                    <input class="var-spinner" type="number" id="r4spinner" name="value" />
                     <span class="mm">mm</span>
                   </div>
                   <div class="var-slider" id="r4slider"></div>
@@ -193,7 +193,7 @@
                       ><p title="Link Length">&theta;<sub>2</sub></p></label
                     >
                     <input
-                      class="var-spinner"
+                      class="var-spinner" type="number"
                       id="theta2spinner"
                       name="value"
                     />
@@ -203,11 +203,11 @@
                 </div>
                 <div class="var-div" id="omega2set">
                   <div class="input-container">
-                    <label for="omega2spinner"
+                    <label for="omega2spinner" 
                       ><p title="Link Length">&omega;<sub>2</sub></p></label
                     >
                     <input
-                      class="var-spinner"
+                      class="var-spinner" type="number"
                       id="omega2spinner"
                       name="value"
                     />
