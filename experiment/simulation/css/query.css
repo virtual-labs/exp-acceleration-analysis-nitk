@@ -11,8 +11,8 @@ em:current font size
 
 @media (max-width: 1344px) {
   body {
-    width: 100%;
-    margin: unset;
+    max-width: 120rem;
+    margin: 0 auto;
   }
   .title-div h1 {
     font-size: 2.5rem;
@@ -40,10 +40,6 @@ em:current font size
   .div__control img {
     width: 3rem;
     height: 2.8rem;
-  }
-
-  #variables {
-    width: 200%;
   }
 }
 
@@ -52,10 +48,6 @@ em:current font size
 /* **************************** */
 
 @media (max-width: 75em) {
-  body {
-    width: 100%;
-    margin: unset;
-  }
   .title-div h1 {
     font-size: 2.5rem;
   }
@@ -83,10 +75,6 @@ em:current font size
     width: 3rem;
     height: 2.8rem;
   }
-
-  #variables {
-    width: 200%;
-  }
 }
 
 /* **************************** */
@@ -94,6 +82,10 @@ em:current font size
 /* **************************** */
 
 @media (max-width: 59em) {
+  body {
+    margin: 0;
+    width: 100%;
+  }
   .tool-link:link,
   .tool-link:visited {
     gap: 0.5rem;
@@ -121,6 +113,10 @@ em:current font size
     justify-content: space-evenly;
     border-radius: 0;
     scroll-behavior: auto;
+    margin: 0;
+  }
+  .main {
+    grid-column: 1/-1;
   }
   .tool-menu {
     list-style: none;
@@ -167,10 +163,6 @@ em:current font size
     border: none;
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
-
-  #variables {
-    width: 100%;
-  }
 }
 
 /* **************************** */
@@ -190,54 +182,7 @@ em:current font size
     border: none;
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
-  /* .datatable {
-    position:relative;
-    top: 50px;
-    width: 80px;
-    font-size: 12px;
-   
-    text-align: center;
-  }
-  .datatable table {
-    border: 1px solid #000011;
-    border-collapse: collapse;
-    width: 120px;
-    margin-top: 315px;
-    margin-left: 0;
-  }
 
-  div#commentboxleft {
-    left: 10px;
-    top: 520px;
-    font-size: 18px;
-    
-  }
-  div#commentboxright {
-    position: absolute;
-    left:400px;
-    top: 520px;
-    text-align: left;
-    font-size: 18px;
-    
-  } */
-  /* #legendicon {
-    background-image: url("../images/legendicon.png");
-    position: absolute;
-    left: 650px;
-    top: 471px;
-    height: 24px;
-    width: 24px;
-    border: double;
-  }
-  #legendicon:active ~ #legend,
-  #legendicon:hover + #legend {
-    height: 80px;
-    border: solid 1px;
-  } */
-  /* div#newComment {
-    margin-top: 74px;
-     
-   } */
   #variables {
     width: 100%;
   }
@@ -288,43 +233,7 @@ em:current font size
     border: none;
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
-  /* #canvas-container {
-    width: 100%;
-    height: 70rem;
-  } */
 
-  /* .datatable {
-    position: relative;
-    width: 80px;
-    font-size: 12px;
-    text-align: center;
-    left: 180px;
-  } */
-  /* #legendicon {
-    background-image: url("../images/legendicon.png");
-    position: absolute;
-    left: 470px;
-    top: 590px;
-    height: 24px;
-    width: 24px;
-    border: double;
-    z-index: 101;
-  }
-  #legend {
-    position: absolute;
-    left: 249px;
-    top: 515px;
-    height: 0px;
-    width: 220px;
-    border: solid 0px;
-    z-index: 100;
-    overflow: hidden;
-  }
-  #legendicon:active ~ #legend,
-  #legendicon:hover + #legend {
-    height: 80px;
-    border: solid 1px;
-  } */
   #quickref {
     position: absolute;
     left: 600px;
@@ -336,39 +245,15 @@ em:current font size
     overflow: hidden;
   }
 
-  /* div#commentboxleft {
-    left: 10px;
-    top: 580px;
-    font-size: 15px;
-  }
-  div#commentboxright {
-    position: absolute;
-    left: 10px;
-    top: 650px;
-    text-align: left;
-    font-size: 15px;
-  } */
-  /* div#newComment {
-    margin-top: 74px;
-  } */
   #variables {
     width: 100%;
   }
-  /* canvas#simscreen {
-    left: 67px;
-    width: 501px;
-  } */
 }
 
 /* **************************** */
 /* Below 540px (Smaller Tablets) */
 /* **************************** */
 @media (max-width: 34em) {
-  .container {
-    /* padding: 0.5rem; */
-    gap: 1rem;
-  }
-
   .title-div h1 {
     padding: 0.2rem;
     font-size: 1.6rem;
@@ -397,11 +282,9 @@ em:current font size
     font-size: 1.5rem;
   }
   .main {
-    gap: 0.5rem;
+    margin-top: 0.05rem;
   }
-  .main-section {
-    gap: 0.5rem;
-  }
+
   .sidebar {
     border-radius: 0;
   }
@@ -433,80 +316,11 @@ em:current font size
     font-size: 1.4rem;
   }
 
-  /* canvas#simscreen {
-    position: absolute;
-    left: 0px;
-    top: 66px;
-    height: 414px;
-    width: 320px;
-  } */
-  /* .datatable {
-    position: relative;
-    width: 80px;
-    font-size: 10px;
-    text-align: center;
-    left: 0px;
-  }
-  .datatable table {
-    border: 1px solid #000011;
-    border-collapse: collapse;
-    width: 120px;
-    margin-top: 385px;
-    margin-left: 10px;
-  } */
-
-  /* #legendicon {
-    background-image: url("../images/legendicon.png");
-    position: absolute;
-    left: 278px;
-    top: 437px;
-    height: 24px;
-    width: 24px;
-    border: double;
-  }
-  #legend {
-    position: absolute;
-    left: 60px;
-    top: 380px;
-    height: 0px;
-    width: 180px;
-    border: solid 0px;
-    z-index: 100;
-    overflow: hidden;
-  }
-  #legendicon:active ~ #legend,
-  #legendicon:hover + #legend {
-    height: 80px;
-    border: solid 1px;
-    width: 215px;
-  } */
-
-  /* div#commentboxleft {
-    left: 10px;
-    top: 580px;
-    font-size: 16px;
-  }
-  div#commentboxright {
-    position: absolute;
-    left: 10px;
-    top: 670px;
-    text-align: left;
-    font-size: 16px;
-  } */
-
   #canvas-container {
     width: 100%;
     /* height: 75rem; */
   }
-  /* #titleincanvas {
-    position: absolute;
-    left: 120px;
-    top: 48px;
-  }
-  div#newComment {
-    margin-top: 30px;
-    font-size: 14px;
-  } */
+
   #variables {
     width: 100%;
   }
