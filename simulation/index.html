@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLVE - Mechanics of Machine Lab -Four Bar Mechanism</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/query.css" />
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      deferl̥l̥l̥ō
+      src="https://code.jquery.com/ui/1.8.17/jquery-ui.min.js"
+    ></script>
+    <script defer src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script defer src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
+    ></script>
+
+    <script defer src="js/newscript.js"></script>
+    <script type="text/javascript" src="js/MOMscript.js"></script>
+  </head>
+  <body onload="startsim();varinit();">
+    <div class="container">
+      <div class="title-div-container">
+        <div class="title-div">
+          <div class="logo-div">
+            <a href="#"
+              ><img src="images/logo_nitk.png" alt="Logo" class="logo"
+            /></a>
+          </div>
+          <h1>Four Bar Mechanism</h1>
+        </div>
+      </div>
+      <div class="sidebar">
+        <ul class="tool-menu">
+          <li class="tool-list">
+            <a href="#simulation" class="tool-link" title="Simulation"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#089B93"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#ffffff"
+                class="icons"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 8.25V18a2.25 2.25 0 002.25 2.25h13.5A2.25 2.25 0 0021 18V8.25m-18 0V6a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 6v2.25m-18 0h18M5.25 6h.008v.008H5.25V6zM7.5 6h.008v.008H7.5V6zm2.25 0h.008v.008H9.75V6z"
+                /></svg
+            ></a>
+            <span>Simulation</span>
+          </li>
+          <li class="tool-list">
+            <a href="#variables" class="tool-link" title="Variables"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#ffffff"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#089B93"
+                class="icons"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.745 3A23.933 23.933 0 003 12c0 3.183.62 6.22 1.745 9M19.5 3c.967 2.78 1.5 5.817 1.5 9s-.533 6.22-1.5 9M8.25 8.885l1.444-.89a.75.75 0 011.105.402l2.402 7.206a.75.75 0 001.104.401l1.445-.889m-8.25.75l.213.09a1.687 1.687 0 002.062-.617l4.45-6.676a1.688 1.688 0 012.062-.618l.213.09"
+                /></svg
+            ></a>
+            <span>Variables</span>
+          </li>
+          <li class="tool-list">
+            <img
+              id="playpausebutton"
+              title="Play/Pause"
+              onclick="simstate()"
+              src="images/bluepausedull.svg"
+              alt=""
+              class="icons"
+            />
+            <span class="playPause">Pause</span>
+          </li>
+          <li class="tool-list">
+            <img
+              id="rotationbutton"
+              title="Rotate"
+              onclick="rotstate()"
+              src="images/bluecwdull.svg"
+              alt=""
+              class="icons"
+            />
+            <span class="">Rotate</span>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="main-section">
+          <div id="simulation" class="main__task-div">
+            <div class="title-control-div">
+              <h3 class="task-title">Simulation</h3>
+            </div>
+
+            <div class="canvas__div">
+              <div id="titleincanvas"></div>
+              <div id="canvas-container">
+                <canvas id="simscreen"></canvas>
+
+                <p id="vba"></p>
+                <p id="vcb"></p>
+                <p id="vca"></p>
+                <p id="ab"></p>
+                <p id="acb"></p>
+                <p id="ac"></p>
+                <div id="legendicon" title="Legend"></div>
+                <!-- <div id="legend"><img id="legendimg" src="images/legend4BARacc.png"></img></div> -->
+              </div>
+              <div id="datatable1" class="datatable"></div>
+              <div id="newComment">
+                <ul id="given">
+                  <!-- <h2 style="text-align: left;text-decoration: underline;font-family:Nunito,sans-serif;">Given data:</h2> -->
+                  <li>AD=r1 AB=r2 BC=r3 CD=r4</li>
+                  <li>r1 is grounded.</li>
+                  <li>r2 is given inputput</li>
+                  <li>Data table contains actual values</li>
+                  <li>
+                    V and A in table are linear Velocity and Acceleration,<br />respectively,
+                    of one end of link wrt another
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div id="variables" class="main__task-div">
+            <div class="settings-sections">
+              <h3 class="task-title">Variables</h3>
+              <div class="variables-sections">
+                <div class="var-div">
+                  <div class="input-container">
+                    <label for="r1spinner"><p title="Link Length">r1</p></label>
+                    <input
+                      class="var-spinner"
+                      type="number"
+                      id="r1spinner"
+                      name="value"
+                    />
+                    <span class="mm">mm</span>
+                  </div>
+                  <div class="var-slider" id="r1slider"></div>
+                </div>
+                <div class="var-div">
+                  <div class="input-container">
+                    <label for="r2spinner"><p title="Link Length">r2</p></label>
+                    <input
+                      class="var-spinner"
+                      type="number"
+                      id="r2spinner"
+                      name="value"
+                    />
+
+                    <span class="mm">mm</span>
+                  </div>
+                  <div class="var-slider" id="r2slider"></div>
+                </div>
+                <div class="var-div">
+                  <div class="input-container">
+                    <label for="r3spinner"><p title="Link Length">r3</p></label>
+                    <input
+                      class="var-spinner"
+                      type="number"
+                      id="r3spinner"
+                      name="value"
+                    />
+
+                    <span class="mm">mm</span>
+                  </div>
+                  <div class="var-slider" id="r3slider"></div>
+                </div>
+                <div class="var-div">
+                  <div class="input-container">
+                    <label for="r4spinner"><p title="Link Length">r4</p></label>
+                    <input
+                      class="var-spinner"
+                      type="number"
+                      id="r4spinner"
+                      name="value"
+                    />
+                    <span class="mm">mm</span>
+                  </div>
+                  <div class="var-slider" id="r4slider"></div>
+                </div>
+                <div class="var-div" id="theta2set">
+                  <div class="input-container">
+                    <label for="theta2spinner"
+                      ><p title="Link Length">&theta;<sub>2</sub></p></label
+                    >
+                    <input
+                      class="var-spinner"
+                      type="number"
+                      id="theta2spinner"
+                      name="value"
+                    />
+                    <span class="mm1">&deg;</span>
+                  </div>
+                  <div class="var-slider" id="theta2slider"></div>
+                </div>
+                <div class="var-div" id="omega2set">
+                  <div class="input-container">
+                    <label for="omega2spinner"
+                      ><p title="Link Length">&omega;<sub>2</sub></p></label
+                    >
+                    <input
+                      class="var-spinner"
+                      type="number"
+                      id="omega2spinner"
+                      name="value"
+                    />
+                    <span class="mm">rad/s</span>
+                  </div>
+                  <div class="var-slider" id="omega2slider"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div></div>
+          <div class="main__task-div footer">
+            <p>Copyright © SOLVE The Virtual Lab @ NITK Surathkal</p>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  <script src="../assets/js/iframeResize.js"></script></body>
+</html>

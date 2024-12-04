@@ -1,0 +1,1 @@
+1. Find the relation between accelerations of the links when the input and output link are parallel to each other.

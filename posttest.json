@@ -1,0 +1,108 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "Angular acceleration of input link rotating with a constant angular velocity is ?",
+        "answers": {
+          "a": "zero",
+          "b": "unity",
+          "c": "not defined",
+          "d": "can not be determined without link length"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      },
+      {
+        "question": "Which amongst the following are not defined in case of a rotating link?",
+        "answers": {
+          "a": "Centripetal Acceleration",
+          "b": "Tangetial Acceleration",
+          "c": "All mentioned accelerations are defined",
+          "d": "Total Acceleration"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "c",
+        "difficulty": ""
+      },
+      {
+        "question": "Tangential Acceleration at a point on a link is not proportional to ?",
+        "answers": {
+          "a": "Angular acceleration of the link",
+          "b": "Angular Velocity of the link",
+          "c": "Radial distance to the point on the link",
+          "d": "None of these"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "b",
+        "difficulty": ""
+      },
+      {
+        "question": "Centripetal Acceleration at a point on a link does not depend on ? ",
+        "answers": {
+          "a": "Angular Velocity of the links",
+          "b": "Radial distance to the point on the link",
+          "c": "Angular acceleration of the link",
+          "d": "None of these"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "c",
+        "difficulty": ""
+      },
+      {
+        "question": "Tangential Acceleration at a point on a link ?",
+        "answers": {
+          "a": "is parallel to the link",
+          "b": "is perpendicular to the link",
+          "c": "is at 45<sup>o</sup> to the link in the direction of motion",
+          "d": "None of these"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "b",
+        "difficulty": ""
+      },
+      {
+        "question": "Which of the following is not true in case of centripetal acceleration?",
+        "answers": {
+          "a": "It is perpendicular to the link ",
+          "b": "It is parallel to the link",
+          "c": "It passes through the center of rotation",
+          "d": "Its magnitude depends on the angular velocity of the link"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      }
+    ]
+  }
+  

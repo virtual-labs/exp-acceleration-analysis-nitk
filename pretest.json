@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "For a 10cm link what is the value of tangential acceleration when it is rotating with a constant angular velocity of 2rad/s ?.",
+      "answers": {
+        "a": "0cm/s<sup>2</sup>",
+        "b": "20cm/s<sup>2</sup>",
+        "c": "40cm/s",
+        "d": "40cm/s<sup>2</sup>"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "For a 10cm link what is the value of centripetal acceleration when it is rotating with a constant angular velocity of 2rad/s?",
+      "answers": {
+        "a": "0cm/s<sup>2</sup>",
+        "b": "20cm/s<sup>2</sup>",
+        "c": "40cm/s",
+        "d": "40cm/s<sup>2</sup>"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "For a 10cm link what is the magnitude of total acceleration at an instant when it is rotating with an angular velocity of 2rad/s and angular acceleration is 3rad/s<sup>2</sup>?",
+      "answers": {
+        "a": "50cm/s<sup>2</sup>",
+        "b": "10cm/s<sup>2</sup>",
+        "c": "70cm/s",
+        "d": "70cm/s<sup>2</sup>"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": " When non-zero, Centripetal and Tangential acceleration are  ",
+      "answers": {
+        "a": "Perpendicular to each other",
+        "b": "Parallel to each other",
+        "c": "Inclined to each other at an angle between 0<sup>o</sup> and 90<sup>o</sup>",
+        "d": "Inclined to each other at an angle more than 90<sup>o</sup>"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "Angle made by the total acceleration of a point on the link with the link when the magnitude of angular acceleration is square of magnitude of centripetal acceleration",
+      "answers": {
+        "a": "0<sup>o</sup>",
+        "b": "90<sup>o</sup>",
+        "c": "45<sup>o</sup>",
+        "d": "Can't be determined"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    }
+  ]
+}
